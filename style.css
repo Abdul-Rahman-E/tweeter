@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headContainer {
+    display: flex;
+    background-color:#04364A;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.headContainer .headerIn{
+    display: flex;
+    width: 30vw;
+    height: 9vh;
+    align-items: center;
+    margin-left: 15px;
+    
+}
+.headContainer .headerIn .twitterLogo {
+    align-self: center;
+}
+.headContainer .headerIn .twitterTag {
+  
+    margin-left: 5%;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #26a7de;
+    align-self: center;
+}
+.headContainer .headerIn .twitterTag .twitterT {
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+.navigation {
+    display: flex;
+    flex: 1 1 auto;
+    padding: 5px 29px;
+    flex: 0 1 auto;
+    align-items: flex-start;
+}
+.navigation .nav-list {
+    align-self: center;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+li {
+    margin: 4px 20px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: flex-start;
+}
+
+a {
+    text-decoration: none;
+    color: #78D6C6;
+}
+a:hover {
+    color:white;
+}
+
+
+.bodyContainer {
+    display: grid;
+    min-height: 530px;
+    background-color: burlywood;
+    grid-template-columns: 200px, 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "left main main main";
+}
+
+.left {
+    grid-area: left;
+    background-color: #F5EEC8;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,120px);
+    align-content: space-around;
+}
+
+.leftIn {
+    background-color: hsl(176, 50%, 60%);
+    grid-column: 2/ span 10;
+    box-shadow: inset 1px 1px 3px #04364A;
+}
+.leftIn:hover {
+    background-color: hsl(176, 60%, 30%);
+}
+
+
+.main-cont {
+    grid-area: main;
+    background-color: #D0D4CA;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    
+    
+}
+
+.main-div {
+    height: 80%;
+    grid-column: 2/ span 10;
+    background-color: hsl(234, 23%, 58%);
+    align-self: center;
+    box-shadow: inset 1px 1px 3px #04364A;
+
+}
+.main-div:hover{
+    background-color: hsl(234, 23%, 40%);
+}
+
+
+
+footer{
+    color: #78D6C6;
+    height: 67px;
+    background-color: #04364A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+}
