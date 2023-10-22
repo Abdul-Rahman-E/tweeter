@@ -5,7 +5,7 @@
 }
 .headContainer {
     display: flex;
-    background-color:#04364A;
+    background-color:rgb(4, 54, 74);
     justify-content: space-between;
     padding: 15px;
     flex-wrap: wrap;
@@ -27,8 +27,8 @@
     margin-left: 5%;
     font-size: 0.9em;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 550;
-    color: #26a7de;
+    font-weight: 500;
+    color: rgb(38, 167, 222);
     align-self: center;
 }
 .headContainer .headerIn .twitterTag .twitterT {
@@ -39,7 +39,6 @@
     display: flex;
     flex: 1 1 auto;
     padding: 5px 29px;
-    flex: 0 1 auto;
     align-items: flex-start;
 }
 .navigation .nav-list {
@@ -63,14 +62,14 @@ a {
     color: #78D6C6;
 }
 a:hover {
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 
 .bodyContainer {
     display: grid;
     min-height: 530px;
-    background-color: burlywood;
+    background-color: rgb(222, 184, 135);
     grid-template-columns: 200px, 1fr;
     grid-template-rows: auto;
     grid-template-areas: "left main main main";
@@ -78,7 +77,7 @@ a:hover {
 
 .left {
     grid-area: left;
-    background-color: #F5EEC8;
+    background-color: rgb(245, 238, 200);
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,120px);
@@ -86,9 +85,9 @@ a:hover {
 }
 
 .leftIn {
-    background-color: hsl(176, 50%, 60%);
+    background-color: rgb(102, 204, 197);
     grid-column: 2/ span 10;
-    box-shadow: inset 1px 1px 3px #04364A;
+    box-shadow: inset 1px 1px 3px rgb(4, 54, 74);
 }
 .leftIn:hover {
     background-color: hsl(176, 60%, 30%);
@@ -97,7 +96,7 @@ a:hover {
 
 .main-cont {
     grid-area: main;
-    background-color: #D0D4CA;
+    background-color: rgb(208, 212, 202);
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto;
@@ -108,13 +107,13 @@ a:hover {
 .main-div {
     height: 80%;
     grid-column: 2/ span 10;
-    background-color: hsl(234, 23%, 58%);
+    background-color: rgb(123, 128, 173);
     align-self: center;
-    box-shadow: inset 1px 1px 3px #04364A;
+    box-shadow: inset 1px 1px 3px rgb(4, 54, 74);
 
 }
 .main-div:hover{
-    background-color: hsl(234, 23%, 40%);
+    background-color: rgb(79, 83, 125);
 }
 
 
@@ -122,7 +121,7 @@ a:hover {
 footer{
     color: #78D6C6;
     height: 67px;
-    background-color: #04364A;
+    background-color: rgb(4, 54, 74);
     display: flex;
     align-items: center;
     justify-content: center;
